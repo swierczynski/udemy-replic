@@ -1,0 +1,23 @@
+.courseCard {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ddd;
+  border-radius: 5px;
+  width: 340px;
+
+  .title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .price,
+  .authors {
+    margin: 10px 0 0 15px;
+  }
+}
